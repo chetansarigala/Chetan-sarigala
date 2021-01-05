@@ -1,0 +1,23 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\setlength{\arrayrulewidth}{1mm}
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{1.5}
+
+\begin{document}
+\begin{tabular}{ |p{1cm}|p{1cm}|p{1cm}|p{1cm}| }
+\hline
+\multicolumn{4}{|c|}{TABLE 1} \\
+\hline
+clk & D & Q &\overline{Q} \\
+\hline
+  1& 0 & 0 & 1 \\
+\hline
+1 & 1 & 1 & 0 \\
+
+
+\hline
+
+\end{tabular}
+\end{document}
