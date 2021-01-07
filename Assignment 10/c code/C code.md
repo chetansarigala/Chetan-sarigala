@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\setlength{\arrayrulewidth}{1mm}
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{1.5}
+
+\begin{document}
+\begin{tabular}{ |p{1cm}|p{1cm}|p{1cm}| }
+\hline
+\multicolumn{3}{|c|}{TABLE 2} \\
+\hline
+Present state & input & Next state  \\
+\hline
+  0 & 0 & 0 \\
+\hline
+0 & 1 & 1 \\
+\hline
+1 & 0 & 0 \\
+\hline
+1 & 1 & 1  \\
+\hline
+
+\end{tabular}
+\end{document}
+
